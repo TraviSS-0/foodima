@@ -1,178 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="website">
-        <div class="top">
-            <h1>Foodima</h1>
-            <div class="navigation">
-                    <a href="">Shop </a>
-                    <a href="">Features</a>
-                    <a href="">Recipes</a>
-                    <a href="">Hotline</a>
-                    <img src="images/magnifying_glass.svg" alt="" width="16px" height="16px">
-            </div>
-
-
-            <div class="account_buttons">
-                <img src="images/profile.svg" alt="Profile Picture" onclick="window.location.href='';" width="30" height="30">
-                <a href="" id = Login>Login</a>
-                <a href=""id = SignIn> Sign In</a>
-
-            </div>
+      <div class="top">
+        <h1>Foodima</h1>
+        <div class="navigation">
+          <a href="">Shop </a>
+          <a href="">Features</a>
+          <a href="">Recipes</a>
+          <a href="">Hotline</a>
+          <img src="magnifying_glass.svg" alt="" width="16px" height="16px" />
         </div>
 
-
-        <div class="outer_event_window">
-            <div class="event_window">
-            <div id="header">Recipe Contest</div>
-                <p>Recipe Contests are like our bag.<br> constantly-in-progress dinner <br> party-and you're invited.</p>
-                <div class="EventLink">
-                    <a href>how they work</a>
-                    <img src="images/arrow_right.svg" alt="arrow" onclick="window.location.href='';" width="18" height="18">
-                </div>
-    
-                
-            
-        
-            </div>
+        <div class="account_buttons">
+          <img
+            src="profile.svg"
+            alt="Profile Picture"
+            onclick="window.location.href='';"
+            width="30"
+            height="30"
+          />
+          <a href="" id="Login">Login</a>
+          <a href="" id="SignIn"> Sign In</a>
         </div>
+      </div>
 
+      <div class="outer_event_window">
+        <div class="event_window">
+          <div id="header">Recipe Contest</div>
+          <p>
+            Recipe Contests are like our bag.<br />
+            constantly-in-progress dinner <br />
+            party-and you're invited.
+          </p>
+          <div class="EventLink">
+            <a href>how they work</a>
+            <img
+              src="arrow_right.svg"
+              alt="arrow"
+              onclick="window.location.href='';"
+              width="18"
+              height="18"
+            />
+          </div>
+        </div>
+      </div>
 
-     <div class="grid">
-        
-            <div class="Filtering">
-
-                <h2>Recipes 👩‍🍳</h2>
-                <div class="Filter">
-                    <div class="FilterBy"> <p>Filter by: </p>
-                                        <a href="">Clear filter</a>
-                    </div>
-                        <div class="flexbox_checkbox">
-                            <label for="contest_winners_checkbox">Contest Winners</label>
-                            <div id="CheckboxContestWinners"><input type="checkbox" id="contest_winners_checkbox"> </div>
-                        </div>
-                        <div class="flexbox_checkbox">
-                            <label for="Featured">Featured</label>
-                            <div id="CheckboxFeatured"><input type="checkbox" id="featured_checkbox"></div>
-                        </div>
-                        <div class="flexbox_checkbox">
-                            <label for="test_kitchen_approved_checkbox">Test Kitchen-Approved</label>
-                            <div id="CheckboxTestKitchenApproved"><input type="checkbox" id="test_kitchen_approved_checkbox"> </div>
-                        </div>
-                </div>
-
-
-
+      <div class="grid">
+        <div class="Filtering">
+          <h2>Recipes 👩‍🍳</h2>
+          <div class="Filter">
+            <div class="FilterBy">
+              <p>Filter by:</p>
+              <a href="">Clear filter</a>
             </div>
+            <div class="flexbox_checkbox">
+              <label for="contest_winners_checkbox">Contest Winners</label>
+              <div id="CheckboxContestWinners">
+                <input type="checkbox" id="contest_winners_checkbox" />
+              </div>
+            </div>
+            <div class="flexbox_checkbox">
+              <label for="Featured">Featured</label>
+              <div id="CheckboxFeatured">
+                <input type="checkbox" id="featured_checkbox" />
+              </div>
+            </div>
+            <div class="flexbox_checkbox">
+              <label for="test_kitchen_approved_checkbox"
+                >Test Kitchen-Approved</label
+              >
+              <div id="CheckboxTestKitchenApproved">
+                <input type="checkbox" id="test_kitchen_approved_checkbox" />
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div class="Filtering_Other_Flexbox">
-            <div class="Filtering_Other">
-                <div class="Filtering_Icons">
-                    <p>Meal</p>  
-                    <img src="images/plus.svg" alt="arrow" width="15" height="15">
-                </div>
+          <div class="Filtering_Other">
+            <div class="Filtering_Icons">
+              <p>Meal</p>
+              <img src="plus.svg" alt="arrow" width="15" height="15" />
             </div>
-            <div class="Filtering_Other">
-                <div class="Filtering_Icons">
-                <p>Dish Type</p>
-                <img src="images/plus.svg" alt="arrow"  width="15" height="15">  
-                </div>
+          </div>
+          <div class="Filtering_Other">
+            <div class="Filtering_Icons">
+              <p>Dish Type</p>
+              <img src="plus.svg" alt="arrow" width="15" height="15" />
             </div>
+          </div>
         </div>
-
 
         <div class="search-bar-grid">
-            <img src="images/magnifying_glass.svg " alt="glass" width="16" height="16">
-            <input type="text" placeholder="Search recipes and more... " >
+          <img src="magnifying_glass.svg " alt="glass" width="16" height="16" />
+          <input type="text" placeholder="Search recipes and more... " />
         </div>
-        
-            <div class="custom-select">
-                <select>
-                    <option value = "Default">Sortby: Newest </option>
-                    <option value = "1">Sortby: 1</option>
-                    <option value = "2">Sortby: 2</option>
-                    <option value = "3">Sortby: 3</option>
-                    <option value = "4">Sortby: 4</option>
-                </select>
 
+        <div class="custom-select">
+          <select>
+            <option value="Default">Sortby: Newest</option>
+            <option value="1">Sortby: 1</option>
+            <option value="2">Sortby: 2</option>
+            <option value="3">Sortby: 3</option>
+            <option value="4">Sortby: 4</option>
+          </select>
+        </div>
 
-                
+        <div class="item item-1">
+          <img src="food.png" alt="food1" width="269" height="150" />
+          <h4>Raspberry-Raspberry Shortcakes</h4>
+          <div class="grid-flexbox">
+            <div class="rating">
+              <img src="star.svg" alt="star" width="25" height="25" />
+              <p>4.7 (23)</p>
             </div>
 
-            <div class="item item-1">
-                <img src="images/food.png" alt="food1"  width="269" height="150">  
-                <h4>Raspberry-Raspberry Shortcakes</h4>
-                <div class="grid-flexbox">
-                    <div class="rating">
-                        <img src="images/star.svg" alt="star"  width="25" height="25">
-                        <p>4.7 (23)</p>
-                    </div>
+            <div class="sarah">by SARAH JAMPEL</div>
+          </div>
+        </div>
 
-                    <div class="sarah">by SARAH JAMPEL</div>
-                    </div>
-
-
+        <div class="item item-2">
+          <img src="food.png" alt="food2" width="269" height="150" />
+          <h4>David Lebovitz's Cherry Clafoutis</h4>
+          <div class="grid-flexbox">
+            <div class="rating">
+              <img src="star.svg" alt="star" width="25" height="25" />
+              <p>4.8 (6)</p>
             </div>
 
-            <div class="item item-2">
-                <img src="images/food.png" alt="food2"  width="269" height="150">  
-                <h4>David Lebovitz's Cherry Clafoutis</h4>
-                <div class="grid-flexbox">
-                    <div class="rating"><img src="images/star.svg" alt="star"  width="25" height="25">
-                        <p> 4.8 (6)</p>
-                    </div>
-                    
-
-                    <div class="sarah">by SARAH JAMPEL</div>
-                </div>
-
+            <div class="sarah">by SARAH JAMPEL</div>
+          </div>
+        </div>
+        <div class="item item-3">
+          <img src="food.png" alt="food3" width="269" height="150" />
+          <h4>Chichorrones-Encrusted-Avocado</h4>
+          <div class="grid-flexbox">
+            <div class="rating">
+              <img src="star.svg" alt="star" width="25" height="25" />
+              <p>4.5 (15)</p>
             </div>
-            <div class="item item-3">
-                <img src="images/food.png" alt="food3"  width="269" height="150">
-                <h4>Chichorrones-Encrusted-Avocado</h4>
-                <div class="grid-flexbox">
-                    <div class="rating">
-                        <img src="images/star.svg" alt="star"  width="25" height="25">
-                        <p> 4.5 (15) </p>
-                    </div>
-                    <div class="sarah">by MAX APETIT</div>
-                </div>
-            </div>
-
-
+            <div class="sarah">by MAX APETIT</div>
+          </div>
+        </div>
+      </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-    </div>
-</body>
+  </body>
 </html>
